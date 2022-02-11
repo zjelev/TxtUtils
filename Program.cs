@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
@@ -55,9 +55,6 @@ namespace TxtToCsv {
             foreach (var file in sapFiles) {
                 try {
                     string[] rows = SapFile(file);
-
-                    var dirName = new DirectoryInfo(file).Parent.Name;
-                    var parentDir = Path.GetDirectoryName(file);
                     File.WriteAllLines(file.Remove(file.Length - 4) + ".csv", rows, destEncoding);
                     sapCounter++;
                 } catch (Exception e) {
