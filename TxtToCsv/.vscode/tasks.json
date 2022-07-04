@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Spr73_6.csproj",
+                "${workspaceFolder}/TxtToCsv.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Spr73_6.csproj",
+                "${workspaceFolder}/TxtToCsv.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Spr73_6.csproj"
+                "${workspaceFolder}/TxtToCsv.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
