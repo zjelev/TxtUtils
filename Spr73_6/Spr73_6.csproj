@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <!--TargetFramework>netcoreapp3.1</TargetFramework --> <!-- 612525 - 726076 ticks bin+obj = 465 585 bytes-->
-    <TargetFramework>net6.0</TargetFramework> <!-- First build 1381551 ticks; 711730 - 807880 ticks after that; bin+obj = 356 997 bytes-->
-  </PropertyGroup>
-
-</Project>
